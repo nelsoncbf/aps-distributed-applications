@@ -1,0 +1,31 @@
+SERVIDOR TCP:
+
+1: Instancia Server Socket
+2: Loop
+	While(true)
+		2.1: Instanciar Socket
+		2.2: Instanciar Thread
+	Fim While
+3: Fim Aplicação
+
+Aula Threads:
+
+1: TCP
+2: TCP + Thread
+3: UDP
+4: TCP + OBJETO
+
+- Algoritmos de balanceamento de carga -
+Least connections : numero de conexões
+Round robin : de forma circular
+weighted fair : de acordo com o processamento
+
+Estabelecendo Conexão Trio HandShake
+Cliente 1 SYN
+Servidor 2 SYN, ACT
+Cliente 3 ACT
+
+Encerrando Conexão
+
+Servidor 1 FIN, ACK
+Cliente 2 ACK
